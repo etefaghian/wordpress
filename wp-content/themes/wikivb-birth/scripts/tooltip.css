@@ -1,0 +1,42 @@
+#tooltip{
+background: rgba(0,0,0,0.6);
+font: 13px 'PetitaBold',Byekan,B yekan,Tahoma;
+text-align:center;
+line-height:1;
+color:#fff;
+position:absolute;
+z-index:100;
+padding:9px 15px 12px 15px;
+max-width: 400px;
+border-radius: 2px;
+}
+#tooltip:after {
+width:0;
+height:0;
+border-left:8px solid transparent;
+border-right:0px solid transparent;
+border-top:8px solid  rgba(0,0,0,0.6);
+content:'';
+position:absolute;
+left:50%;bottom:-8px;
+margin-left:-5px;
+	-moz-transition: all 0s ease-in;
+	-webkit-transition: all 0s ease-in;
+	-o-transition: all 0s ease-in;
+	-ms-transition: all 0s ease-in;
+}
+#tooltip.top:after {
+border-top-color:transparent;
+border-bottom:8px solid  rgba(0,0,0,0.6);
+top:-16px;
+bottom:auto;
+}
+#tooltip.left:after {
+left:5px;
+margin:0;
+}
+#tooltip.right:after {
+right:5px;
+left:auto;
+margin:0;
+}

@@ -1,0 +1,10 @@
+.nav-menu {background:#ff7271;}
+.posthead:after, .likeThis:hover, .sidebody li a:hover:before {background:#ff7271;}
+html a, body a {color:#ff7271;}
+.foot-top .wikivb a, .foot-top .copyright a {color:#d97978;}
+.two-button:after {color:#ff7271;}
+.colorselect a .selectred:before {display:block;}
+.loginbutton:hover {background:#ff7271;}
+.nolog-link:hover, .nolog-link a:hover {color:#ff7271;}
+#open-login:hover:before, #register-link a:hover:before {background:#ff7271;}
+.toplinkslogout span:hover:before, .toplinkspannel span:hover:before {color:#ff7271;}
